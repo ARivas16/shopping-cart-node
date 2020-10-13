@@ -1,0 +1,19 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "Shopping Cart coding problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine",
+    "start": "node src/index.js"
+  },
+  "author": "Thoughtworks",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
